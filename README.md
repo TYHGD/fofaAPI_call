@@ -10,7 +10,7 @@ XlsxWriter==3.0.3
 
 2、配置config.ini
 
-![image](https://user-images.githubusercontent.com/96215214/198879845-f968690d-ce6c-45cc-9f67-65d1fd822f10.png)
+![image](https://user-images.githubusercontent.com/96215214/198885758-4f5ab21d-fa28-4e1a-b55a-e822d1cf1aa3.png)
 
 将fofa的邮箱跟key保存到config.ini中
 
