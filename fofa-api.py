@@ -20,7 +20,7 @@ def excel(name, fofa_):
 	try:
 		index_ = 1
 		book = xlsxwriter.Workbook((name + '.xlsx').strip())
-		sheet = book.add_worksheet('fofa查询结果')
+		sheet = book.add_worksheet('one-fox安全团队')
 		title = ['url', 'IP', '端口']
 		for index, data in enumerate(title):
 			sheet.write(0, index, data)
@@ -54,6 +54,14 @@ def r(a):
 
 
 if __name__ == '__main__':
+	print("""
+  __        __                         _ 
+ / _| ___  / _| __ _        __ _ _ __ (_)
+| |_ / _ \| |_ / _` |_____ / _` | '_ \| |
+|  _| (_) |  _| (_| |_____| (_| | |_) | |
+|_|  \___/|_|  \__,_|      \__,_| .__/|_|
+                                |_|        
+                                            one-fox安全团队""")
 	try:
 		parser = argparse.ArgumentParser()
 		parser.add_argument('-r', dest='r', type=str, help='从文本中读取fofa联合查询语句')
